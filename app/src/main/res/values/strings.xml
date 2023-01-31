@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Valeriana</string>
+
+    <!--    Initial page   -->
+    <string name="phrase">El médico debe ser el auxiliar de la naturaleza, no su enemigo</string>
+    <string name="SignUpButton">Sign Up</string>
+    <string name="LoginButton">Login</string>
+
+    <!--    Login   -->
+    <string name="password">Contraseña</string>
+    <string name="email">Correo electronico</string>
+
+    <string name="forgotPButton">¿Has olvidado la contraseña?</string>
+    <string name="loginWhit">Iniciar sesion con</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="whatsApp">WhatsApp</string>
+
+    <!--   Bottom Bar   -->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="calendar">Calendar</string>
+    <string name="prescription">Prescription</string>
+    <string name="profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

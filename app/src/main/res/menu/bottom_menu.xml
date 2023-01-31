@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/profile_bar"/>
+
+    <item android:id="@+id/nav_calendar"
+        android:title="@string/calendar"
+        android:icon="@drawable/home_bar"/>
+
+    <item android:id="@+id/nav_search"
+        android:title="@string/search"
+        android:icon="@drawable/search_bar"/>
+
+    <item android:id="@+id/nav_prescription"
+        android:title="@string/prescription"
+        android:icon="@drawable/calendar_bar"/>
+
+    <item android:id="@+id/nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/prescription_bar"/>
+</menu>
