@@ -1,0 +1,40 @@
+{
+	"id": 2,
+	"prescription": [
+		{
+			"name": "BENZOYL PEROXIDE",
+			"times": 1,
+			"days": 4,
+			"quantity": 529,
+			"description": "Fully-configurable bandwidth-monitored hardware"
+		},
+		{
+			"name": "Benzoyl Peroxide",
+			"times": 3,
+			"days": 12,
+			"quantity": 613,
+			"description": "Devolved 5th generation challenge"
+		},
+		{
+			"name": "Calendula officinalis, Symphytum officinale, Staphysagria, Rhus Toxicodendron, Ruta Graveolens, Bellis perennis,",
+			"times": 3,
+			"days": 3,
+			"quantity": 925,
+			"description": "Enterprise-wide human-resource system engine"
+		},
+		{
+			"name": "Lamotrigine",
+			"times": 2,
+			"days": 8,
+			"quantity": 614,
+			"description": "Synergistic static website"
+		},
+		{
+			"name": "Atomoxetine hydrochloride",
+			"times": 3,
+			"days": 8,
+			"quantity": 571,
+			"description": "Pre-emptive radical hardware"
+		}
+	]
+}
