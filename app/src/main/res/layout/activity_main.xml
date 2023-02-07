@@ -53,7 +53,8 @@
             android:id="@+id/go_to_signup_button"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:text="@string/SignUpButton"/>
+            android:text="@string/SignUpButton"
+            android:background="@drawable/round_style"/>
 
         <Button
             android:id="@+id/go_to_login_button"

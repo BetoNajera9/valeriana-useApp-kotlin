@@ -21,7 +21,7 @@ class LoginActivity : AppCompatActivity() {
             val emailText = emailEditText.text.toString()
             val passwordText = passwordEditText.text.toString()
 
-            if(emailText == "chivas99mn@hotmail.com"){
+            if(emailText == "correo@hotmail.com"){
                 if(passwordText == "password"){
                     goToHome()
                 }
