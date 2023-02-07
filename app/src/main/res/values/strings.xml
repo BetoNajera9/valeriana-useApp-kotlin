@@ -5,6 +5,7 @@
     <string name="phrase">El médico debe ser el auxiliar de la naturaleza, no su enemigo</string>
     <string name="SignUpButton">Sign Up</string>
     <string name="LoginButton">Login</string>
+    <string name="LogoutButton">Logout</string>
 
     <!--    Login   -->
     <string name="password">Contraseña</string>
@@ -18,11 +19,17 @@
     <string name="whatsApp">WhatsApp</string>
 
     <!--   Bottom Bar   -->
-    <string name="home">Home</string>
-    <string name="search">Search</string>
-    <string name="calendar">Calendar</string>
-    <string name="prescription">Prescription</string>
-    <string name="profile">Profile</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Inicio</string>
+    <string name="search">Buscar</string>
+    <string name="calendar">Calendario</string>
+    <string name="prescription">Recetas</string>
+    <string name="profile">Perfil</string>
+    <string name="highlights">Destacados</string>
+
+
+    <!--    Search fragment-->
+    <string name="popularity">Popularidad</string>
+    <string name="patients">Pacientes</string>
+
+    <string name="location">CDMX, Alvaro Obregón</string>
 </resources>

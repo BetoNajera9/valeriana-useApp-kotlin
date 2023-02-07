@@ -22,6 +22,7 @@
 
 
         <EditText
+            android:id="@+id/emailText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="25dp"
@@ -32,6 +33,7 @@
             android:fontFamily="@font/nunito_light"/>
 
         <EditText
+            android:id="@+id/passwordText"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="25dp"
@@ -91,7 +93,7 @@
             android:layout_gravity="center"
             android:backgroundTint="#00FFFFFF"
             android:contentDescription="@string/facebook"
-            android:src="@drawable/facebook" />
+            android:src="@drawable/icon_facebook" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -99,7 +101,7 @@
             android:layout_gravity="center"
             android:backgroundTint="#00FFFFFF"
             android:contentDescription="@string/google"
-            android:src="@drawable/google" />
+            android:src="@drawable/icon_google" />
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -107,7 +109,7 @@
             android:layout_gravity="center"
             android:backgroundTint="#00FFFFFF"
             android:contentDescription="@string/whatsApp"
-            android:src="@drawable/whats_app" />
+            android:src="@drawable/icon_whats" />
 
 
     </GridLayout>

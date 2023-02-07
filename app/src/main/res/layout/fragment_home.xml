@@ -6,15 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/home"
-        android:textAlignment="center"
-        android:textSize="32sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textSize="20sp"
+            android:text="@string/prescription"/>
+
+        <ListView
+            android:id="@+id/prescriptionList"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            tools:listitem="@layout/list_prescription_item"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="40dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:textSize="20sp"
+            android:text="@string/highlights"/>
+        <ListView
+            android:id="@+id/doctorList"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            tools:listitem="@layout/list_doctor_item"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"/>
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

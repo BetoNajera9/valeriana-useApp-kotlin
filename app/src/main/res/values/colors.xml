@@ -15,4 +15,6 @@
     <color name="black">#000</color>
 
     <color name="transparent">#FFFFFFFF</color>
+
+    <color name="pink">#F1CBFF</color>
 </resources>

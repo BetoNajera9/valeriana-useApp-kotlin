@@ -61,7 +61,8 @@
             android:layout_height="50dp"
             android:layout_row="0"
             android:layout_column="2"
-            android:text="@string/LoginButton"/>
+            android:text="@string/LoginButton"
+            android:background="@drawable/round_style"/>
 
     </GridLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
